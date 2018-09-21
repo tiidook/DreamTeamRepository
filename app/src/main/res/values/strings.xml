@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HackathonApp</string>
+
+    <string name="error_unknown_host_exception">Отсутствует подключение к интернету</string>
+    <string name="network_not_found">Отсутствует подключение к интернету</string>
+    <string name="error_socket_timeout_exception">Превышено время соединения с сервером</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+
 </resources>

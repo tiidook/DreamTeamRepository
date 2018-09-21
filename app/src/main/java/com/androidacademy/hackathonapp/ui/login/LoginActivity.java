@@ -15,4 +15,9 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
+    @Override
+    public void loginSuccessful() {
+        //todo тут открыть экран тасков, закрыть текущий
+    }
 }
