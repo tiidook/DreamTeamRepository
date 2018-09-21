@@ -5,11 +5,15 @@ import me.codezfox.extension.asyncR
 import me.codezfox.extension.bodyOrError
 import me.codezfox.extension.isSuccessfulOrError
 import retrofit2.Call
+import retrofit2.http.POST
 
 interface ApiServer {
 
+    @POST("AppUsers")
     fun login(name: String, deviceId: String, firebaseDeviceId: String? = null): Call<Unit>
+
     fun loadTasks(): Call<List<Task>>
+
 }
 
 class ApiRepository {
@@ -22,6 +26,10 @@ class ApiRepository {
 
     fun loadTasks() = asyncR {
         api.loadTasks().execute().bodyOrError()
+    }
+
+    fun acceptTask(task: Task) {
+
     }
 
 }

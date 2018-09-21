@@ -9,7 +9,7 @@ import me.codezfox.extension.awaitFold
 import me.codezfox.extension.launchUI
 
 @InjectViewState
-class TasksPresenter : MvpPresenter<TaskView>() {
+class TasksPresenter : MvpPresenter<TasksView>() {
 
     private val apiRepository = ApiRepository()
 

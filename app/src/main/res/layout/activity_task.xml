@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/textVewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="title"
+        tools:text="title"
         />
 
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="title"
+        tools:text="title"
         />
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="description"
+        tools:text="description"
         />
 
     <TextView
         android:id="@+id/cost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
+        tools:text="0"
         />
 
     <Button
+        android:id="@+id/btnOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Принять"
         />
 
 </LinearLayout>
