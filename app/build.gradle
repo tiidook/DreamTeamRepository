@@ -4,11 +4,11 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.androidacademy.hackathonapp"
         minSdkVersion 22
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
     }
@@ -42,7 +42,7 @@ kapt {
 }
 
 ext {
-    supportVer = "28.0.0-rc02"
+    supportVer = "27.0.0"
     moxyVer = '1.5.3'
     daggerVer = "2.16"
     retrofitVer = "2.4.0"
